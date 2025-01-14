@@ -9,7 +9,7 @@
   "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
   "deploy": "gh-pages -d frontend/dist"
 },
-	"homepage": "https://durgesh-git20.github.io/mern-ecommerce",
+	
 	"keywords": [],
 	"author": "",
 	"type": "module",
