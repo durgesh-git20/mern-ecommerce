@@ -3,11 +3,13 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "backend/server.js",
-	"scripts": {
-		"dev": "nodemon backend/server.js",
-		"start": "node backend/server.js",
-		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
-	},
+"scripts": {
+  "dev": "nodemon backend/server.js",
+  "start": "node backend/server.js",
+  "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+  "deploy": "gh-pages -d frontend/dist"
+},
+	"homepage": "https://durgesh-git20.github.io/mern-ecommerce",
 	"keywords": [],
 	"author": "",
 	"type": "module",
